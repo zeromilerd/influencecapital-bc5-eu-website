@@ -309,8 +309,16 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #a4c639;
-	border-bottom: 3px solid #a4c639;
+	color: #000;
+	border-bottom: 3px solid #000;
+
+}
+.st
+{
+	 color: black;
+/*   font-size: 50px;*/
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: white;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -457,6 +465,8 @@ ul.slick-dots {
   letter-spacing: 1px;
   color:#a4c639;
   animation:fadeOutRight 1s both;
+  margin-left: -65px;
+   text-shadow: 2px 1.5px #fff;
 }
 
 .Modern-Slider .item h4 {
@@ -561,6 +571,7 @@ ul.slick-dots {
 .service-item .down-content {
 	background-color: #f7f7f7;
 	padding: 30px;
+	margin-bottom: 15px;
 }
 
 .service-item .down-content h4 {

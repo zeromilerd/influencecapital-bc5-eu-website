@@ -395,7 +395,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-1 .img-fill {
-	background-image: url(../images/slide_01.jpg);
+	background-image: url(../images/influence-capital-slide.png);
 }
 
 .Modern-Slider .item-2 .img-fill {
@@ -463,9 +463,10 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#a4c639;
+  color:#251611;
   animation:fadeOutRight 1s both;
-  margin-left: -65px;
+  margin-left: -40px;
+  text-shadow: 1px 1px #fff;
    
 }
 
